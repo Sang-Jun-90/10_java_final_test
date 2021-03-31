@@ -6,7 +6,7 @@ class AdjMatrix{
 	
 	public void insertVertex(int v){
 		totalV++;
-	}
+	} 
 	
 	
 	public void insertEdge(int v1, int v2){

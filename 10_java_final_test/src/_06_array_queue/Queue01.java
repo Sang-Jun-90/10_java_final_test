@@ -9,7 +9,7 @@ class ArrayQueue {
 		front = -1;
 		rear = -1;
 		this.queueSize = queueSize;
-		itemArray = new char[this.queueSize];
+		itemArray = new char[this.queueSize]; 
 	}
 	
 	public boolean isEmpty(){

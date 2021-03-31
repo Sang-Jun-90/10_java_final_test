@@ -89,6 +89,7 @@ public class Stack01{
 		deletedItem = S.pop();
 		if(deletedItem != 0)
 			System.out.println("deleted Item : " + deletedItem);
-		S.printStack();		
+		S.printStack();	
+		System.out.println();
 	}
 }

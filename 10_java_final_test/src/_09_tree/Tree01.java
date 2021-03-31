@@ -10,7 +10,7 @@ class LinkedTree{
 	
 	public TreeNode makeBT(TreeNode bt1, Object data, TreeNode bt2){
 		TreeNode root = new TreeNode();
-		root.data = data;
+		root.data = data; 
 		root.left = bt1;
 		root.right = bt2;
 		return root;

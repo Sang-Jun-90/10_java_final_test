@@ -105,6 +105,6 @@ public class ListStack{
 		deletedItem = LS.pop();
 		if(deletedItem != 0)
 			System.out.println("deleted Item : " + deletedItem);
-		LS.printStack();		
+		LS.printStack();	 	
 	}
 }

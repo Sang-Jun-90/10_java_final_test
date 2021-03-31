@@ -12,7 +12,7 @@ class BinarySearchTree{
 		TreeNode p = root;
 		TreeNode newNode = new TreeNode();
 		newNode.data = x;
-		newNode.left = null;
+		newNode.left = null; 
 		newNode.right = null;
 		if(p == null)			
 			return newNode;

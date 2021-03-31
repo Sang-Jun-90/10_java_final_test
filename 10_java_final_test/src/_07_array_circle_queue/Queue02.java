@@ -11,7 +11,7 @@ class ArrayCQueue implements Queue{
 	private int front;
 	private int rear;
 	private int queueSize;
-	private char itemArray[];
+	private char itemArray[]; 
 	
 	public ArrayCQueue(int queueSize){
 		front = 0;

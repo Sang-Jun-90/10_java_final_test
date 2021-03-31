@@ -9,7 +9,7 @@ class LinkedStack{
 	private StackNode top;
 		
 	public boolean isEmpty(){
-		return (top == null);
+		return (top == null); 
 	}
 	
 	public void push(int item){

@@ -9,7 +9,7 @@ interface Queue{
 
 class QNode{
 	char data;
-	QNode link;
+	QNode link; 
 }
 
 class LinkedQueue implements Queue{

@@ -7,7 +7,7 @@ class StackNode{
 
 class LinkedStack{
 	
-	StackNode top;
+	StackNode top; 
 		
 	public boolean isEmpty(){
 		return (top == null);
