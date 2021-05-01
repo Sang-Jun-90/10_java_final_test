@@ -4,6 +4,7 @@ class LinkedList{
 	
 	private ListNode head;
 	
+	//생성자 
 	public LinkedList(){
 		head = null;
 		System.out.println();
@@ -114,7 +115,7 @@ public class List01{
 	
 	public static void main(String args[]){
 		
-LinkedList L = new LinkedList();
+		LinkedList L = new LinkedList();
 		
 		System.out.println("(1) 공백 리스트에 노드 3개 삽입하기");
 		L.insertLastNode("월");
