@@ -11,10 +11,18 @@ class LinkedList1{
 	
 	public void insertMiddleNode(String data, ListNode1 pre) {
 		ListNode1 newNode = new ListNode1(data);
-		newNode.link = pre.link;
-		pre.link = newNode;
+		
+		
 	}
-	public void insertLastNode() {
+	public void insertLastNode(String data) {
+		ListNode1 newNode = new ListNode1(data);
+		
+		if(head == null) {
+			head = newNode;
+		}
+		else {
+			ListNode1 temp = head;
+		}
 		
 	}
 	public void deleteLastNode() {
@@ -22,15 +30,13 @@ class LinkedList1{
 	}
 	public ListNode1 searchNode() {
 		
-		ListNode1 temp = this.head;
-		
-		return temp;
+		return head;
 	}
 	public void reverseList() {
 		
 	}
 	public void printList() {
-		ListNode1 temp = this.head;
+		
 	}
 	
 	
